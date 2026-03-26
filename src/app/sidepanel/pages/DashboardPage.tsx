@@ -2,7 +2,6 @@
 import { SummaryCards } from "../components/SummaryCards";
 import { ExtensionList } from "../components/ExtensionList";
 import { EmptyState } from "../components/EmptyState";
-import { Button } from "@/shared/ui/Button";
 import { Loader } from "@/shared/ui/Loader";
 import { useAudit } from "@/shared/hooks/useAudit";
 import { Card } from "@/shared/ui/Card";
@@ -50,3 +49,5 @@ export const DashboardPage = () => {
     </div>
   );
 };
+
+
