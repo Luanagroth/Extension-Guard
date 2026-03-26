@@ -1,0 +1,34 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #111827;
+  background:
+    radial-gradient(circle at top right, rgba(191, 219, 254, 0.4), transparent 26%),
+    radial-gradient(circle at bottom left, rgba(226, 232, 240, 0.8), transparent 24%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  font-family: "Segoe UI", sans-serif;
+}
+
+html {
+  background: #eef2f7;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #111827;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
