@@ -11,6 +11,10 @@ Extensão Chrome desenvolvida para auditoria local de extensões instaladas, com
 
 A proposta do projeto vai além de um MVP visual: a base foi pensada para demonstrar organização arquitetural, separação de responsabilidades, tipagem forte, testabilidade e uma abordagem de produto voltada para segurança e clareza de uso.
 
+Extensão do Chrome Reagir TypeScript Vite Vitest Status
+
+🔗 Chrome Web Store: [Ver extensão](https://chromewebstore.google.com/detail/jihknbnaipjpaeffdmpfiiicpmmlkjdb)
+
 ## Sobre o Projeto
 
 O **Extension Guard** foi construído para inspecionar extensões instaladas no navegador e ajudar o usuário a entender, de forma simples e visual, o nível de risco associado a permissões e acessos sensíveis.
